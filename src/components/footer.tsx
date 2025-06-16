@@ -1,9 +1,11 @@
+import logo from "../assets/logo.png";
+
 const Footer = () => {
   return (
     <footer className="w-full bg-gray-800 text-white py-6">
       <div className="flex flex-col md:flex-row w-full h-auto md:h-[90%] justify-between">
         <div className="w-full md:w-1/2 h-full flex flex-col px-6 mb-6 md:mb-0">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" className="w-9 h-12" />
           <h1 className="text-xl font-semibold mb-4 text-blue-500">
             Figilotech Tech
           </h1>

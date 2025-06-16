@@ -1,6 +1,7 @@
 import { MenuSquareIcon, X } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const location = useLocation();
@@ -20,8 +21,9 @@ const Header = () => {
     <div>
       {/*Desktop Header*/}
       <div className="hidden lg:flex md:flex w-full h-16 justify-between items-center px-10 py-3 fixed top-0 left-0 bg-white z-50">
-        <div className="flex gap-2">
-          <img src="" alt="logo" />
+        <div className="flex gap-2 h-full justify-center items-center">
+          <img src={logo} alt="logo" className="w-9 h-10" />
+
           <span className="text-blue-500 font-bold">Figilotech Tech</span>
         </div>
         <div className="flex gap-3 text-[0.8em]">
