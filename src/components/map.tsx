@@ -31,11 +31,12 @@ const companyLocation: companyLocationType = {
 
 const CompanyMap = () => {
   return (
-    <div className="rounded-xl overflow-hidden shadow-md">
+    <div className="rounded-xl overflow-hidden shadow-md z-0">
       <MapContainer
         center={[companyLocation.lat, companyLocation.lng]}
         zoom={15}
         style={{ height: "400px", width: "100%" }}
+        className="z-0"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'

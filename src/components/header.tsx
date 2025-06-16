@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div>
       {/*Desktop Header*/}
-      <div className="hidden lg:flex md:flex w-full h-16 justify-between items-center px-10 py-3 fixed top-0 left-0 bg-white z-50">
+      <div className="hidden lg:flex md:flex w-full h-16 justify-between items-center px-10 py-3 fixed top-0 left-0 bg-white z-[100]">
         <div className="flex gap-2 h-full justify-center items-center">
           <img src={logo} alt="logo" className="w-9 h-10" />
 
@@ -51,9 +51,9 @@ const Header = () => {
       </div>
 
       {/*Mobile Header*/}
-      <div className="lg:hidden md:hidden w-full h-16 flex justify-between items-center px-5 py-3 fixed top-0 left-0 bg-white z-50">
+      <div className="lg:hidden md:hidden w-full h-16 flex justify-between items-center px-5 py-3 fixed top-0 left-0 bg-white z-[100]">
         <div className="flex gap-2">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" className="w-9 h-10" />
           <span className="text-blue-500 font-bold">Figilotech Tech</span>
         </div>
 
