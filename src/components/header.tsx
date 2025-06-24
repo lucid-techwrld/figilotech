@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex gap-2 h-full justify-center items-center">
           <img src={logo} alt="logo" className="w-9 h-10" />
 
-          <span className="text-blue-500 font-bold">Figilotech Tech</span>
+          <span className="text-blue-500 font-bold">Figilo Tech</span>
         </div>
         <div className="flex gap-3 text-[0.8em]">
           <a href="/" className={linkClass("/")}>
@@ -54,7 +54,7 @@ const Header = () => {
       <div className="lg:hidden md:hidden w-full h-16 flex justify-between items-center px-5 py-3 fixed top-0 left-0 bg-white z-[100]">
         <div className="flex gap-2">
           <img src={logo} alt="logo" className="w-9 h-10" />
-          <span className="text-blue-500 font-bold">Figilotech Tech</span>
+          <span className="text-blue-500 font-bold">Figilo Tech</span>
         </div>
 
         <button onClick={toggleMenu} className="p-2">
@@ -70,8 +70,8 @@ const Header = () => {
         >
           <div className="flex justify-between items-center mb-5">
             <div>
-              <img src="" alt="logo" />
-              <span className="text-blue-500 font-bold">Figilotech Tech</span>
+              <img src={logo} alt="logo" className="w-9 h-10" />
+              <span className="text-blue-500 font-bold">Figilo Tech</span>
             </div>
             <button onClick={toggleMenu} className="p-2">
               <X size={24} />

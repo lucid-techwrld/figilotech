@@ -8,6 +8,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import CompanyMap from "./components/map";
 import "leaflet/dist/leaflet.css";
+import Whatsapp from "./components/whatsapp_btn";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <CompanyMap />
       <Contact />
       <Footer />
+      <Whatsapp />
     </div>
   );
 }
